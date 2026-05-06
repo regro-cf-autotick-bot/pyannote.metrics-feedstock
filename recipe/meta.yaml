@@ -1,5 +1,5 @@
 {% set name = "pyannote.metrics" %}
-{% set version = "3.2.1" %}
+{% set version = "4.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyannote.metrics-{{ version }}.tar.gz
-  sha256: 08024255a3550e96a8e9da4f5f4af326886548480de891414567c8900920ee5c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyannote_metrics-{{ version }}.tar.gz
+  sha256: afe24c54ee0799e8cfbe8ee85fa517793c3450bb7eae8fedd1a77ccec0343f7e
 
 build:
   number: 0
